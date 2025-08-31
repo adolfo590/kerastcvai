@@ -1,5 +1,5 @@
 # kerastcvai
-kerastcvai : # Text Classification # DNN # RNN # CNN
+kerastcvai : # Keras Text Classification # DNN # RNN # CNN
 
 ## Objective
 - To create a text classification datasets using BigQuery.
