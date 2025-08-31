@@ -1,4 +1,4 @@
-# kerastcvai
+# kerastcvai 📚🧮💰
 kerastcvai : # Keras Text Classification # DNN # RNN # CNN
 
 ## Objective
